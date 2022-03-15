@@ -10,7 +10,7 @@ export default function Home() {
   const { authenticate, isAuthenticated, logout, authError, isAuthenticating } =
     useMoralis();
 
-  const [email, setEmail] = useState("sebastian@anotherblock.io");
+  const [email, setEmail] = useState("Enter your email");
 
   const handleCustomLogin = async () => {
     console.log("This is SIckkkkkk");
